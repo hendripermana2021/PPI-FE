@@ -2,7 +2,7 @@ import React from "react";
 
 const LocationPage = () => {
   return (
-    <div className="relative w-full min-h-screen bg-gradient-to-b from-orange-50 via-yellow-50 to-orange-100 overflow-hidden flex flex-col items-center justify-start p-6 lg:p-12">
+    <div className="relative w-full min-h-screen bg-white/30 backdrop-blur-sm border border-white/20 rounded-2xl shadow-lg overflow-hidden flex flex-col items-center justify-start p-6 lg:p-12">
 
       {/* Decorative Falling Leaves */}
       <img src="/clover.png" alt="leaf" className="absolute w-8 h-8 animate-fall-slow top-10 left-20 opacity-80 pointer-events-none" />
@@ -44,8 +44,8 @@ const LocationPage = () => {
         {/* Embedded Map */}
         <div className="w-full h-64 sm:h-96 rounded-2xl overflow-hidden shadow-xl border border-white/30">
           <iframe
-            title="Autumn Festival Location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.673587536234!2d112.78398961477536!3d-7.336582274760119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb98b6b5e59d%3A0x2e0b1a24f7f9f63b!2sMaple%20Tree%20Alley!5e0!3m2!1sen!2sid!4v1694628000000!5m2!1sen!2sid"
+            title="Autumn Festival Directions"
+            src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d207.202!2d132.7650009!3d33.8416247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m3!3m2!1d33.8416247!2d132.7650009!4m3!3m2!1d33.8352932!2d132.7652931!5e0!3m2!1sen!2sjp!4v1726425200000!5m2!1sen!2sjp"
             width="100%"
             height="100%"
             className="border-0"
