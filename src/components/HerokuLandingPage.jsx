@@ -1,4 +1,5 @@
 'use client'
+import { Link } from "react-router-dom";
 
 const navigation = [
   { name: 'Product', href: '#' },
@@ -34,12 +35,11 @@ const HerokuLandingPage = () => {
             Explore seasonal delights, warm drinks, festive treats, and exciting bazaars with friends and family!
           </p>
           <div className="mt-8 flex items-center justify-center gap-x-6">
-            <a
-              href="/login"
+            <Link to ="/login"
               className="rounded-md bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 px-4 py-2 text-white font-semibold shadow-md hover:brightness-105 transition"
             >
               Daftar Stand Bazar
-            </a>
+            </Link>
             <a
               href="https://bit.ly/DaftarPendaftarAutumnFest2025"
               className="text-sm/6 font-semibold text-gray-900"
