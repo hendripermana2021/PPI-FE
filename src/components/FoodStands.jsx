@@ -15,21 +15,21 @@ const stands = [
       },
       {
         name: "Risol Ayam Creamy",
-        img: "https://source.unsplash.com/400x250/?fried-snack",
+        img: "/imgfood/yuli/risol.jpg",
         desc: "Risol renyah dengan isian ayam lembut, sayuran segar, dan keju lumer. Camilan favorit semua kalangan di festival.",
         price: "350",
         ingredients: "Ayam, sayuran, tepung terigu, keju",
       },
       {
         name: "Lontong Pecel",
-        img: "https://source.unsplash.com/400x250/?indonesian-food",
+        img: "/imgfood/yuli/lontong.jpg",
         desc: "Lontong lembut disajikan dengan sayuran rebus dan siraman bumbu kacang khas Jawa. Lengkap dengan kerupuk renyah sebagai pelengkap.",
         price: "800",
         ingredients: "Nasi, sayuran rebus, bumbu kacang, kerupuk",
       },
       {
         name: "Pokat Kocok",
-        img: "https://source.unsplash.com/400x250/?avocado-drink",
+        img: "/imgfood/yuli/pokat.jpeg",
         desc: "Minuman alpukat segar yang dikocok dengan susu kental manis, gula, dan topping es krim cokelat. Manis dan menyegarkan.",
         price: "700",
         ingredients: "Alpukat, susu kental manis, gula, es krim cokelat",
@@ -41,14 +41,14 @@ const stands = [
     foods: [
       {
         name: "Kopi Susu Cincau",
-        img: "https://source.unsplash.com/400x250/?coffee-drink",
+        img: "/imgfood/hanum/kopicincau.jpg",
         desc: "Kopi susu segar dengan cincau hitam kenyal, kombinasi klasik dengan twist kekinian.",
         price: "300",
         ingredients: "Nutrijell cincau, susu, kopi",
       },
       {
         name: "Cilok Bumbu Kacang",
-        img: "https://source.unsplash.com/400x250/?street-food",
+        img: "/imgfood/hanum/cilok.jpeg",
         desc: "Cilok kenyal khas Bandung dengan siraman bumbu kacang gurih pedas.",
         price: "300",
         ingredients: "Tepung kanji, bawang, daun bawang, bumbu kacang",
@@ -60,28 +60,28 @@ const stands = [
     foods: [
       {
         name: "Bakso",
-        img: "https://source.unsplash.com/400x250/?meatballs",
+        img: "/imgfood/early/bakso.jpg",
         desc: "Bakso daging sapi dan ayam kenyal dengan kuah gurih khas Indonesia.",
         price: "850",
         ingredients: "Daging sapi, daging ayam, kanji, bawang putih, masako",
       },
       {
         name: "Batagor",
-        img: "https://source.unsplash.com/400x250/?fried-dumpling",
+        img: "/imgfood/early/batagor.jpg",
         desc: "Batagor renyah dengan bumbu kacang gurih manis pedas.",
         price: "680",
         ingredients: "Daging ayam, tahu, tepung kanji, masako",
       },
       {
         name: "Dimsum",
-        img: "https://source.unsplash.com/400x250/?dimsum",
+        img: "/imgfood/early/dimsum.jpg",
         desc: "Dimsum kukus lembut isi ayam & sayuran, cocok untuk camilan hangat.",
         price: "0",
         ingredients: "Ayam, udang, wortel, kulit pangsit",
       },
       {
         name: "Dadar Gulung",
-        img: "https://source.unsplash.com/400x250/?dimsum",
+        img: "/imgfood/early/dadargulung.jpg",
         desc: "Kue dadar hijau pandan tipis yang digulung, diisi kelapa parut manis dengan gula merah, cocok sebagai pencuci mulut atau camilan manis.",
         price: "0",
         ingredients: "Tepung terigu, santan, gula merah, kelapa parut, pandan",
@@ -89,25 +89,25 @@ const stands = [
     ]
   },
   {
-    name: "Asyief Stand",
+    name: "Iyo Stand",
     foods: [
       {
         name: "Mie ayam",
-        img: "https://source.unsplash.com/400x250/?meatballs",
+        img: "/imgfood/asyief/mieayam.jpg",
         desc: "Mie kenyal disajikan dengan potongan ayam berbumbu manis gurih, lengkap dengan kuah kaldu hangat khas Indonesia.",
         price: "650",
         ingredients: "Ayam, mie, bumbu rempah-rempah, kecap (bonus sambal/cabe)",
       },
       {
         name: "Pempek",
-        img: "/public/yuli/cendol.jpg",
+        img: "/imgfood/asyief/pempek.jpg",
         desc: "Olahan ikan giling bercampur tepung yang digoreng atau direbus, disajikan dengan kuah cuko pedas manis khas Palembang.",
         price: "650",
         ingredients: "Ikan, tepung terigu, kanji, tepung beras, telor, bawang merah dan bawang putih, cuko (gula merah, asam jawa)",
       },
       {
         name: "Kopi (hot/ice)",
-        img: "https://source.unsplash.com/400x250/?dimsum",
+        img: "/imgfood/asyief/kopi.jpg",
         desc: "Minuman kopi segar yang bisa dinikmati hangat maupun dingin, cocok untuk menemani santai atau berbincang.",
         price: "150",
         ingredients: "Kopi, air, es (opsional gula/krimer)",
@@ -119,28 +119,28 @@ const stands = [
     foods: [
       {
         name: "Nasi goreng",
-        img: "https://source.unsplash.com/400x250/?meatballs",
+        img: "/imgfood/erni/nasigoreng.jpg",
         desc: "Nasi goreng khas Indonesia dengan bumbu sederhana, ditumis bersama ayam, telur, dan sayuran, lalu diberi kecap manis untuk rasa gurih manis yang nikmat.",
         price: "650",
         ingredients: "Nasi, ayam, telur, minyak goreng, garam, bawang putih, bawang bombay, wortel, merica, kecap manis",
       },
       {
         name: "Mie goreng",
-        img: "https://source.unsplash.com/400x250/?fried-dumpling",
+        img: "/imgfood/erni/miegoreng.jpg",
         desc: "Mie goreng dengan potongan ayam, telur, dan sayuran segar, dibumbui rempah pilihan untuk cita rasa gurih khas rumahan.",
         price: "650",
         ingredients: "Mie, ayam, telur, kol, merica, bawang putih, minyak goreng",
       },
       {
         name: "Bolu pandan",
-        img: "https://source.unsplash.com/400x250/?dimsum",
+        img: "/imgfood/erni/bolupandan.jpg",
         desc: "Kue bolu lembut dengan aroma pandan yang harum, tekstur empuk, dan rasa manis yang pas.",
         price: "300",
         ingredients: "Telur, terigu, gula, minyak goreng, ekstrak pandan",
       },
       {
         name: "Pastel",
-        img: "https://source.unsplash.com/400x250/?dimsum",
+        img: "/imgfood/erni/pastel.jpg",
         desc: "Pastry goreng renyah berisi campuran sayuran dan soun, berpadu dengan bumbu gurih yang lezat.",
         price: "300",
         ingredients: "Kentang, wortel, soun, telur, terigu, margarin, bawang putih, bawang bombay, merica, royco (chicken consome), minyak goreng",
@@ -152,14 +152,14 @@ const stands = [
     foods: [
       {
         name: "Sate Ayam",
-        img: "https://source.unsplash.com/400x250/?meatballs",
+        img: "/imgfood/baqir/sateayam.jpg",
         desc: "Potongan daging ayam yang ditusuk, dipanggang dengan arang, lalu disajikan dengan bumbu kacang gurih manis khas Indonesia.",
         price: "250",
         ingredients: "Ayam, Bumbu kacang(rempah, Kacang, Bawang putih, bawang merah dll)",
       },
       {
         name: "Soto Ayam",
-        img: "https://source.unsplash.com/400x250/?fried-dumpling",
+        img: "/imgfood/baqir/soto.jpg",
         desc: "Sup ayam khas Indonesia dengan kuah kuning segar, dilengkapi bihun, kol, telur rebus, dan taburan bawang goreng.",
         price: "300",
         ingredients: "Bumbu soto ayam, kol, ayam, bihun, telur, etc",
@@ -246,17 +246,6 @@ const FoodStands = () => {
   }, []);
 
   const currentStand = standsData.find((stand) => stand.name === selectedStand);
-
-  if (isLoading) {
-    return (
-      <div className="flex items-center justify-center h-screen bg-yellow-50">
-        <div className="text-center">
-          <div className="loader mb-4"></div>
-          <p className="text-orange-700 font-semibold text-lg">Loading stands...</p>
-        </div>
-      </div>
-    );
-  }
 
   return (
     <div className="bg-white/30 backdrop-blur-sm border border-white/20 rounded-2xl shadow-lg p-6 mb-6">
