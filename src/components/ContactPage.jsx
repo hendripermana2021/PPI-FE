@@ -32,7 +32,7 @@ const ContactPage = () => {
 
           {/* LINE Button */}
           <a
-            href="https://line.me/R/ti/p/@yuli.tan1"
+            href="https://line.me/R/ti/p/yuli.tan1"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-xl shadow-lg transition"

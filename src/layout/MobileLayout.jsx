@@ -1,8 +1,7 @@
 // layout/MobileLayout.jsx
 import { Outlet } from "react-router-dom";
-import { ChevronDown } from "lucide-react";
 import { useState } from "react";
-import MobileNavbar from "../components/MobileNavbar";
+import Navbar from "../components/Navbar";
 
 const MobileLayout = () => {
   
@@ -17,7 +16,7 @@ const MobileLayout = () => {
       </div>
 
       {/* Footer & Mobile Navbar */}
-      <MobileNavbar />
+      <Navbar />
     </div>
   );
 };
