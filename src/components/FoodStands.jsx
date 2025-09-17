@@ -171,28 +171,28 @@ const stands = [
     foods: [
       {
         name: "Nasi kuning",
-        img: "https://source.unsplash.com/400x250/?meatballs",
+        img: "/imgfood/mursyida/nasikuning.jpg",
         desc: "Nasi berwarna kuning harum karena kunyit dan santan, disajikan dengan lauk lengkap seperti ayam goreng, telur, mie goreng, kerupuk, dan sambal terasi.",
         price: "650",
         ingredients: "Nasi, kunyit, santan kelapa, bawang merah, bawang putih, kemiri, sereh, daun salam, daun jeruk, ayam goreng, mie goreng, telur, kerupuk, salada & mentimun, sambal terasi",
       },
       {
         name: "Donat kampung",
-        img: "https://source.unsplash.com/400x250/?fried-dumpling",
+        img: "/imgfood/mursyida/donatkampung.jpeg",
         desc: "Donat goreng empuk berbahan kentang dengan taburan meses atau topping manis seperti selai stroberi dan tiramisu.",
         price: "350",
         ingredients: "Kentang, kuning telur, gula pasir, tepung terigu, ragi instan, margarin, topping: meses coklat, selai stroberi dan tiramisu",
       },
       {
         name: "Es pisang ijo",
-        img: "https://source.unsplash.com/400x250/?fried-dumpling",
+        img: "/imgfood/mursyida/espisangijo.jpg",
         desc: "Pisang dibalut adonan hijau pandan, disajikan dengan kuah santan manis, sirup coco pandan, dan susu kental manis. Segar untuk penutup!",
         price: "350",
         ingredients: "Pisang, tepung beras, tepung terigu, santan kelapa, pasta pandan & gula pasir, syrup Marjan coco pandan dan condense milk.",
       },
       {
         name: "Aneka Jajanan Indonesia",
-        img: "https://source.unsplash.com/400x250/?fried-dumpling",
+        img: "/imgfood/mursyida/jajan.jpg",
         desc: "Snack khas Indonesia yang cocok untuk ngemil, mulai dari yang manis hingga gurih seperti beng-beng, keripik tempe, kacang telur, dan lainnya.",
         price: "100",
         ingredients: "Beng-beng, keripik tempe, kacang telur, sus coklat, kripik pisang",
@@ -204,21 +204,21 @@ const stands = [
     foods: [
       {
         name: "Iced Thai Tea",
-        img: "https://source.unsplash.com/400x250/?meatballs",
+        img: "/imgfood/aini/thaitea.jpg",
         desc: "Minuman teh Thailand segar yang dicampur susu kental manis dan susu segar, cocok dinikmati dingin di siang hari yang hangat.",
         price: "000",
         ingredients: "Thai Tea Mix, Condensed Milk, Milk",
       },
       {
         name: "Cireng Isi",
-        img: "https://source.unsplash.com/400x250/?fried-dumpling",
+        img: "/imgfood/aini/cirengisi.jpeg",
         desc: "Camilan goreng khas Sunda berbahan tepung tapioka, diisi ayam dan sayuran berbumbu pedas gurih, cocok untuk ngemil sambil jalan-jalan.",
         price: "000",
         ingredients: "Tapioca Flour, Rice Paper, Chicken, Paprika, Chili, Onion, Garlic, Citrus Leaf, Salt, Pepper, MSG",
       },
       {
         name: "Martabak Telur",
-        img: "https://source.unsplash.com/400x250/?fried-dumpling",
+        img: "/imgfood/aini/martabaktelur.jpg",
         desc: "Martabak telur gurih dengan isian daging ayam cincang, daun bawang, dan rempah pilihan, renyah di luar dan lembut di dalam.",
         price: "000",
         ingredients: "Flour, Egg, Green Onion, Curry Powder, Minced Chicken",
