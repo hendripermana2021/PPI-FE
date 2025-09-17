@@ -25,7 +25,7 @@ const MobileNavbar = () => {
           Stands
         </Link>
 
-        <Link to="/info" className="flex flex-col items-center text-orange-700">
+        <Link to="/contact" className="flex flex-col items-center text-orange-700">
           <InformationCircleIcon className="w-6 h-6 mb-1" />
           Contact Us
         </Link>

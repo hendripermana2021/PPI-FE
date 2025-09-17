@@ -7,9 +7,10 @@ import LeavesPortal from "./components/LeavesPortal";
 import MobileLayout from "./layout/MobileLayout";
 import PageNotFound from "./components/PageNotFound";
 import LocationPage from "./components/LocationPage";
+import ContactPage from "./components/ContactPage";
 
 // Component wrapper agar AnimatePresence bisa bekerja dengan route
-const AnimatedRoutes = ({ role }) => {
+const AnimatedRoutes = () => {
   const location = useLocation();
 
   return (
@@ -52,6 +53,19 @@ const AnimatedRoutes = ({ role }) => {
                   transition={{ duration: 0.3 }}
                 >
                   <FoodStands />
+                </motion.div>
+              }
+            />
+            <Route
+              path="/contact"
+              element={
+                <motion.div
+                  initial={{ opacity: 0, x: 50 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  exit={{ opacity: 0, x: -50 }}
+                  transition={{ duration: 0.3 }}
+                >
+                  <ContactPage />
                 </motion.div>
               }
             />
