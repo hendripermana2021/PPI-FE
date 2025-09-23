@@ -22,14 +22,14 @@ const stands = [
       },
       {
         name: "Lontong Pecel (Rice Cake with Peanut Sauce)",
-        img: "/imgfood/yuli/lontong.jpg",
+        img: "/imgfood/yuli/pecal.jpg",
         desc: "Lontong Pecel is a wholesome Javanese dish that tells a story of tradition and community. Soft rice cakes (lontong) are served with an assortment of boiled vegetables and generously topped with savory-spicy peanut sauce. A sprinkle of crispy crackers adds the finishing crunch. This dish is more than just food — it reflects the warmth of Indonesian gatherings, where families and friends share simple yet flavorful meals. At Autumn Fest, enjoy Lontong Pecel as a hearty reminder of home-style cooking with a festive twist.",
         price: "800",
         ingredients: "Rice cake, assorted boiled vegetables, peanut sauce, crackers",
       },
       {
         name: "Pokat Kocok (Shaken Avocado Drink)",
-        img: "/imgfood/yuli/pokat.jpeg",
+        img: "/imgfood/yuli/pokat.jpg",
         desc: "Pokat Kocok is a rich and indulgent drink made from ripe avocados, sweetened condensed milk, and sugar, then topped with chocolate ice cream. The drink is gently shaken to create a creamy texture that highlights the natural buttery flavor of the avocado. Popular in Indonesian street markets, it is both a dessert and a refreshing treat. At Autumn Fest, Pokat Kocok offers a unique tropical experience — sweet, creamy, and irresistibly satisfying for anyone looking to try something beyond the ordinary.",
         price: "700",
         ingredients: "Avocado, sweetened condensed milk, sugar, chocolate ice cream",
@@ -60,14 +60,14 @@ const stands = [
     foods: [
       {
         name: "Bakso (Indonesian Meatballs)",
-        img: "/imgfood/early/bakso.jpg",
+        img: "/imgfood/early/bakso.jpeg",
         desc: "Bakso is one of Indonesia’s most iconic comfort foods. These springy meatballs are made from a mixture of beef and chicken, blended with tapioca starch for their signature chewy texture. Served in a steaming bowl of savory broth, often topped with noodles, vegetables, and a splash of sambal, Bakso is a dish that warms both body and soul. At Autumn Fest, this Bakso brings the taste of Indonesian street corners and cozy food stalls straight to your table.",
         price: "850",
         ingredients: "Beef, chicken, tapioca flour, garlic, seasoning",
       },
       {
         name: "Batagor (Fried Dumplings with Peanut Sauce)",
-        img: "/imgfood/early/batagor.jpg",
+        img: "/imgfood/early/batagor.jpeg",
         desc: "Batagor, short for 'Bakso Tahu Goreng,' is a legendary street snack from Bandung. It features tofu and dumplings filled with seasoned chicken, deep-fried until golden and crispy. The star of Batagor is its luscious peanut sauce — rich, nutty, sweet, and just a little spicy. A favorite afternoon snack across Indonesia, Batagor is perfect for enjoying while strolling through the lively festival atmosphere.",
         price: "700",
         ingredients: "Chicken, tofu, tapioca flour, garlic, peanut sauce, chili",
@@ -88,9 +88,9 @@ const stands = [
       },
       {
         name: "Dadar Gulung (Pandan Coconut Roll Pancake)",
-        img: "/imgfood/early/dadargulung.jpg",
+        img: "/imgfood/early/dadargulung.jpeg",
         desc: "Dadar Gulung is a classic Indonesian sweet snack, often found in traditional markets across Java and Sumatra. Its name literally means 'rolled pancake,' made from a thin, green pandan-flavored crepe filled with grated coconut cooked in palm sugar. The green color comes naturally from pandan leaves, which also lend a fragrant aroma. This dessert has deep cultural roots in Indonesian culinary heritage, often served during family gatherings, festive occasions, or as a daily treat with tea or coffee. Its combination of soft pandan skin and sweet coconut filling makes Dadar Gulung a timeless favorite that reflects the balance of simplicity and richness in Indonesian sweets.",
-        price: "0",
+        price: "330",
         ingredients: "Grated coconut, palm sugar, wheat flour, pandan extract",
       },
     ]
@@ -182,7 +182,7 @@ const stands = [
         name: "Sate Ayam",
         img: "/imgfood/baqir/sateayam.jpg",
         desc: "Sate Ayam, or chicken satay, is a classic Indonesian street food that has been enjoyed for generations. Tender pieces of chicken are skewered and grilled over charcoal, then served with a rich, sweet, and savory peanut sauce. Historically, satay originated as a humble street snack, but it has grown to become a national favorite, representing the vibrant flavors and communal spirit of Indonesian cuisine. Enjoyed at festivals, family gatherings, or casual dinners, each bite tells a story of tradition and flavor.",
-        price: "250",
+        price: "3 Skewers - 350, 5 Skewers - 500",
         ingredients: "Chicken, peanut sauce (spices, peanuts, garlic, shallots, etc.)",
       }
     ]
