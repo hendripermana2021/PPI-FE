@@ -4,7 +4,7 @@ import { createPortal } from "react-dom";
 
 const stands = [
   {
-    name: "Yuli Stand",
+    name: "Yuli's kitchen",
     foods: [
       {
         name: "Es Dawet (Indonesian Cendol Drink)",
@@ -96,7 +96,7 @@ const stands = [
     ]
   },
   {
-    name: "Iyo Stand",
+    name: "Dapoer いよ",
     foods: [
       {
         name: "Mie Ayam (Indonesian Chicken Noodles)",
@@ -129,7 +129,7 @@ const stands = [
     ]
   },
   {
-    name: "Erni & friends stand",
+    name: "Erni & friends",
     foods: [
       {
         name: "Nasi Goreng",
@@ -176,7 +176,7 @@ const stands = [
     ]
   },
   {
-    name: "Baqir Stand",
+    name: "Tusuki!",
     foods: [
       {
         name: "Sate Ayam",
@@ -188,7 +188,7 @@ const stands = [
     ]
   },
   {
-    name: "Mursyida Stand",
+    name: "Sulawesi",
     foods: [
       {
         name: "Yellow Rice (Nasi Kuning)",
@@ -251,8 +251,21 @@ const stands = [
       price: "350",
       ingredients: "Flour, Egg, Green Onion, Curry Powder, Minced Chicken",
     },
-  ]
-}
+    ]
+  },
+  
+  {
+  name: "Kedai Anak Muda",
+  foods: [
+    {
+      name: "Nasi Bakar (Grilled Rice)",
+      img: "/imgfood/afifah/nasibakar.jpeg",
+      desc: "Nasi Bakar, or 'grilled rice,' is a fragrant Indonesian dish where rice is mixed with flavorful fillings, wrapped in banana leaves, and grilled over charcoal for a smoky aroma. This version combines chicken, potato, and tempeh, offering a balance of savory protein, hearty texture, and nutty taste. The banana leaf not only locks in the flavor but also gives a traditional presentation that reflects Indonesia’s rich culinary heritage.",
+      price: "500",
+      ingredients: "Chicken, potato, tempeh",
+    },
+    ]
+  }
 ];
 
 const FoodStands = () => {
@@ -276,20 +289,20 @@ const FoodStands = () => {
   const currentStand = standsData.find((stand) => stand.name === selectedStand);
 
   return (
-    <div className="bg-white/30 backdrop-blur-sm border border-white/20 rounded-2xl shadow-lg p-6 mb-6">
+    <div className="bg-white/30 backdrop-blur-sm border border-white/20 rounded-2xl shadow-lg p-6 mb-6 lg:mt-10 xl:mt-14">
       <div className="p-6 bg-gradient-to-b from-yellow-50 via-orange-50 to-orange-100 ">
         {/* Header */}
         <header className="mb-6 text-center">
-            <h2 className="text-3xl font-bold text-red-600 mb-2">🍂 Find </h2>
-            <p className="text-gray-700 text-md">
-              Pilih stand untuk melihat menu makanan dan produk unik yang tersedia di Autumn Fest 2025!
-            </p>
-          </header>
+          <h2 className="text-3xl font-bold text-red-600 mb-2">🍂 Find your Taste</h2>
+          <p className="text-gray-700 text-md">
+            Explore each stand and discover irresistible flavors, hearty dishes, and unique creations waiting just for you at Autumn Fest 2025!
+          </p>
+        </header>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Sidebar Stand */}
           <aside className="bg-white/80 backdrop-blur-sm shadow rounded-xl p-4">
-            <h2 className="text-xl font-semibold mb-4 text-orange-800">Daftar Stand</h2>
+            <h2 className="text-xl font-semibold mb-4 text-orange-800">List Menu of Stands</h2>
             <ul className="grid grid-cols-2 gap-4">
               {stands.map((stand) => (
                 <li key={stand.name}>

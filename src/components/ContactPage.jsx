@@ -7,14 +7,14 @@ const ContactPage = () => {
         {/* Header */}
         <h1 className="text-4xl font-bold text-orange-700 mb-4">📬 Contact Us</h1>
         <p className="text-orange-900 text-lg mb-8">
-          Punya pertanyaan atau ingin berkolaborasi? Hubungi kami lewat WhatsApp atau LINE!
+          Have questions or want to collaborate? Reach out to us via WhatsApp or LINE!
         </p>
 
         {/* Contact Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           {/* WhatsApp Button */}
           <a
-            href="https://wa.me/6282167827302?text=Halo%20Autumn%20Festival!"
+            href="https://wa.me/6282167827302?text=Hello%20Autumn%20Festival!"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-xl shadow-lg transition"
@@ -51,7 +51,7 @@ const ContactPage = () => {
 
         {/* Optional Footer */}
         <p className="text-orange-900 mt-8">
-          Kami siap menyambut pesanmu dan memastikan pengalaman Autumn Festival-mu menyenangkan! 🍁
+          We’re excited to hear from you and make your Autumn Festival experience unforgettable! 🍁
         </p>
       </div>
     </div>

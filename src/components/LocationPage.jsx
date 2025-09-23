@@ -2,7 +2,7 @@ import React from "react";
 
 const LocationPage = () => {
   return (
-    <div className="relative w-full min-h-screen bg-white/30 backdrop-blur-sm border border-white/20 rounded-2xl shadow-lg overflow-hidden flex flex-col items-center justify-start p-6 lg:p-12">
+    <div className="relative w-full min-h-screen bg-white/30 backdrop-blur-sm border border-white/20 rounded-2xl shadow-lg overflow-hidden flex flex-col items-center justify-start p-6 lg:p-12 lg:mt-10 xl:mt-14">
 
       {/* Decorative Falling Leaves */}
       <img src="/clover.png" alt="leaf" className="absolute w-8 h-8 animate-fall-slow top-10 left-20 opacity-80 pointer-events-none" />
