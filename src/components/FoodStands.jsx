@@ -132,28 +132,28 @@ const stands = [
     name: "Erni & friends",
     foods: [
       {
-        name: "Nasi Goreng",
+        name: "Nasi Goreng (Fried Rice)",
         img: "/imgfood/erni/nasigoreng.jpg",
         desc: "Nasi Goreng, or Indonesian fried rice, is a beloved dish that dates back centuries and reflects Indonesia's rich culinary heritage. This version features fragrant rice stir-fried with chicken, egg, and fresh vegetables, then seasoned with sweet soy sauce (kecap manis) for a perfect balance of savory and sweet flavors. Traditionally served during family gatherings or street food stalls, Nasi Goreng is more than just a meal—it's a symbol of comfort, community, and daily life in Indonesia.",
         price: "650",
         ingredients: "Rice, chicken, egg, cooking oil, salt, garlic, onion, carrot, pepper, sweet soy sauce",
       },
       {
-        name: "Mie Goreng",
+        name: "Mie Goreng (Fried Noodles)",
         img: "/imgfood/erni/miegoreng.jpg",
         desc: "Mie Goreng, or Indonesian fried noodles, is a popular street food with roots influenced by Chinese culinary traditions. Tender noodles are stir-fried with juicy pieces of chicken, scrambled egg, and fresh vegetables, seasoned with select spices for a rich, homestyle flavor. This dish has been enjoyed for generations, often prepared as a quick meal for families or shared at festive occasions, embodying both convenience and cultural heritage.",
         price: "650",
         ingredients: "Noodles, chicken, egg, cabbage, pepper, garlic, cooking oil",
       },
       {
-        name: "Bolu Pandan",
+        name: "Bolu Pandan (Pandan Sponge Cake)",
         img: "/imgfood/erni/bolupandan.jpg",
         desc: "Bolu Pandan is a soft, fluffy sponge cake infused with the natural aroma of pandan leaves, giving it a distinct green hue and fragrant taste. Pandan-flavored desserts have long been part of Southeast Asian cuisine, with roots tracing back to traditional home baking. Its light, airy texture and perfectly balanced sweetness make it a delightful treat for afternoon tea or as a festive dessert, cherished by both young and old.",
         price: "300",
         ingredients: "Eggs, flour, sugar, cooking oil, pandan extract",
       },
       {
-        name: "Pastel",
+        name: "Pastel (Indonesian Savory Pastry)",
         img: "/imgfood/erni/pastel.jpg",
         desc: "Pastel is a crispy, deep-fried pastry filled with a savory mix of vegetables, vermicelli (soun), and aromatic seasonings. This snack is widely enjoyed across Indonesia, often sold by street vendors during festivals or as a midday treat. The delicate balance between the crunchy outer layer and the flavorful filling makes Pastel a beloved comfort snack, reflecting Indonesia’s tradition of vibrant, diverse street foods.",
         price: "300",
