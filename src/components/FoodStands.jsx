@@ -367,12 +367,12 @@ const FoodStands = () => {
             <div className="fixed inset-0 z-[10000] flex items-center justify-center p-4">
               <div className="relative bg-white rounded-2xl shadow-2xl w-96 max-w-full max-h-[90vh] flex flex-col overflow-hidden">
                 {/* Close Button */}
-                <button
-                  className="absolute top-3 right-3 text-gray-400 hover:text-gray-700 z-10"
-                  onClick={() => setSelectedFood(null)}
-                >
-                  ✖
-                </button>
+                  <button
+                    className="absolute top-3 right-3 text-white hover:text-gray-700 z-10 bg-orange-600 hover:bg-orange-500 p-1 rounded-full"
+                    onClick={() => setSelectedFood(null)}
+                  >
+                    ✖
+                  </button>
 
                 {/* Image */}
                 <img
