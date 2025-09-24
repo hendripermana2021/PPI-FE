@@ -183,7 +183,7 @@ const stands = [
         img: "/imgfood/baqir/sateayam.jpg",
         desc: "Sate Ayam, or chicken satay, is a classic Indonesian street food that has been enjoyed for generations. Tender pieces of chicken are skewered and grilled over charcoal, then served with a rich, sweet, and savory peanut sauce. Historically, satay originated as a humble street snack, but it has grown to become a national favorite, representing the vibrant flavors and communal spirit of Indonesian cuisine. Enjoyed at festivals, family gatherings, or casual dinners, each bite tells a story of tradition and flavor.",
         price: "3 Skewers - 350, 5 Skewers - 500",
-        ingredients: "Chicken, peanut sauce (spices, peanuts, garlic, shallots, etc.)",
+        ingredients: "Chicken, peanuts (allergen), shallots & garlic, soy-based soy sauce (potential allergen: soy), coriander, margarine (potential dairy allergen)",
       }
     ]
   },
