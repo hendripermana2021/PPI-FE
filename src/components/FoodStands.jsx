@@ -182,7 +182,7 @@ const stands = [
         name: "Sate Ayam",
         img: "/imgfood/baqir/sateayam.jpg",
         desc: "Sate Ayam, or chicken satay, is a classic Indonesian street food that has been enjoyed for generations. Tender pieces of chicken are skewered and grilled over charcoal, then served with a rich, sweet, and savory peanut sauce. Historically, satay originated as a humble street snack, but it has grown to become a national favorite, representing the vibrant flavors and communal spirit of Indonesian cuisine. Enjoyed at festivals, family gatherings, or casual dinners, each bite tells a story of tradition and flavor.",
-        price: "3 Skewers - 350, 5 Skewers - 500",
+        price: "3 Skewers - ￥350, 5 Skewers - ￥500",
         ingredients: "Chicken, peanuts (allergen), shallots & garlic, soy-based soy sauce (potential allergen: soy), coriander, margarine (potential dairy allergen)",
       }
     ]
@@ -326,11 +326,11 @@ const FoodStands = () => {
             <h2 className="text-xl font-semibold mb-4 text-orange-700">
               Menu {currentStand?.name}
             </h2>
-           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-h-[500px] overflow-y-auto pr-2">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-h-[500px] overflow-y-auto pr-2">
               {currentStand?.foods.map((food, index) => (
                 <div
                   key={index}
-                  className="rounded-xl bg-gradient-to-br from-yellow-50 via-orange-50 to-orange-100 shadow-md overflow-hidden hover:shadow-lg transition cursor-pointer"
+                  className="rounded-xl bg-gradient-to-br from-yellow-50 via-orange-50 to-orange-100 shadow-md overflow-hidden hover:shadow-lg transition cursor-pointer relative"
                 >
                   <img
                     src={food.img}
@@ -342,11 +342,17 @@ const FoodStands = () => {
                     <h3 className="font-semibold text-orange-800">{food.name}</h3>
                     <p className="text-sm text-orange-900 line-clamp-2">{food.desc}</p>
                   </div>
+                  {/* Price in the top right of the image */}
+                  <div className="absolute top-2 right-2 bg-orange-600 text-white px-2 py-1 rounded-lg text-sm font-semibold">
+                    ￥ {food.price}
+                  </div>
                 </div>
               ))}
             </div>
           </section>
         </div>
+
+
 
         {/* Popup Modal */}
         {selectedFood && (
