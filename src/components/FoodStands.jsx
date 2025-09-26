@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 
-
 const stands = [
   {
     name: "Yuli's kitchen",
@@ -11,28 +10,28 @@ const stands = [
         img: "/imgfood/yuli/cendol.jpg",
         desc: "Es Dawet is a traditional Indonesian dessert drink that has been enjoyed for generations, especially during hot days and festive occasions. It is made from chewy green rice flour jelly (cendol), served with creamy coconut milk, and sweetened with palm sugar syrup. The balance of rich coconut, earthy palm sugar, and refreshing ice makes this drink both comforting and revitalizing. At Autumn Fest, Es Dawet brings a taste of Indonesian heritage, inviting you to cool down while experiencing a story of tropical culture in every sip.",
         price: "400",
-        ingredients: "Rice flour jelly, palm sugar, coconut milk, shaved ice",
+        ingredients: "Rice flour, brown sugar, milk",
       },
       {
         name: "Creamy Chicken Risoles",
         img: "/imgfood/yuli/risol.jpg",
         desc: "A beloved Indonesian snack, Risoles are crispy golden rolls filled with tender chicken, fresh vegetables, and gooey melted cheese. With every bite, you’ll enjoy a crunchy outer layer followed by a creamy, savory filling that melts in your mouth. Originating as a festive street food, this dish has become a comfort favorite across generations. At Yuli Stand, our Creamy Chicken Risoles are a must-try — perfect as a warm companion to the lively festival atmosphere.",
         price: "350",
-        ingredients: "Chicken, vegetables, wheat flour, cheese, breadcrumbs",
+        ingredients: "Vegetables, wheat flour, chicken, shrimp",
       },
       {
         name: "Lontong Pecel (Rice Cake with Peanut Sauce)",
         img: "/imgfood/yuli/pecal.jpg",
         desc: "Lontong Pecel is a wholesome Javanese dish that tells a story of tradition and community. Soft rice cakes (lontong) are served with an assortment of boiled vegetables and generously topped with savory-spicy peanut sauce. A sprinkle of crispy crackers adds the finishing crunch. This dish is more than just food — it reflects the warmth of Indonesian gatherings, where families and friends share simple yet flavorful meals. At Autumn Fest, enjoy Lontong Pecel as a hearty reminder of home-style cooking with a festive twist.",
-        price: "800",
-        ingredients: "Rice cake, assorted boiled vegetables, peanut sauce, crackers",
+        price: "750",
+        ingredients: "Rice, vegetables, noodles, peanut sauce",
       },
       {
         name: "Pokat Kocok (Shaken Avocado Drink)",
         img: "/imgfood/yuli/pokat.jpg",
         desc: "Pokat Kocok is a rich and indulgent drink made from ripe avocados, sweetened condensed milk, and sugar, then topped with chocolate ice cream. The drink is gently shaken to create a creamy texture that highlights the natural buttery flavor of the avocado. Popular in Indonesian street markets, it is both a dessert and a refreshing treat. At Autumn Fest, Pokat Kocok offers a unique tropical experience — sweet, creamy, and irresistibly satisfying for anyone looking to try something beyond the ordinary.",
-        price: "700",
-        ingredients: "Avocado, sweetened condensed milk, sugar, chocolate ice cream",
+        price: "650",
+        ingredients: "Avocado, cream, cheese, sweetened condensed milk, sugar, ice cream",
       },
     ]
   },
@@ -51,7 +50,7 @@ const stands = [
         img: "/imgfood/hanum/milkyjelly.jpg",
         desc: "Milky Jelly Drink is a refreshing Indonesian beverage that combines the creamy richness of fresh milk with the chewy texture of grass jelly and the bold flavor of brewed coffee. This drink offers a delightful contrast between the smoothness of milk and the slight bitterness of coffee, balanced by the sweetness of sugar. Grass jelly adds an interesting texture, making each sip a unique experience. Perfect for cooling down during Autumn Fest, this drink captures the essence of Indonesian flavors in a modern twist.",
         price: "300",
-        ingredients: "Instant jelly powder, milk, condensed milk",
+        ingredients: "Nutri Jelly Grass Jelly, Milk, and Coffee",
       },
     ],
   },
@@ -63,14 +62,14 @@ const stands = [
         img: "/imgfood/early/bakso.jpeg",
         desc: "Bakso is one of Indonesia’s most iconic comfort foods. These springy meatballs are made from a mixture of beef and chicken, blended with tapioca starch for their signature chewy texture. Served in a steaming bowl of savory broth, often topped with noodles, vegetables, and a splash of sambal, Bakso is a dish that warms both body and soul. At Autumn Fest, this Bakso brings the taste of Indonesian street corners and cozy food stalls straight to your table.",
         price: "850",
-        ingredients: "Beef, chicken, tapioca flour, garlic, seasoning",
+        ingredients: "Beef, chicken, starch, garlic, and masako (flavoring)",
       },
       {
         name: "Batagor (Fried Dumplings with Peanut Sauce)",
         img: "/imgfood/early/batagor.jpeg",
         desc: "Batagor, short for 'Bakso Tahu Goreng,' is a legendary street snack from Bandung. It features tofu and dumplings filled with seasoned chicken, deep-fried until golden and crispy. The star of Batagor is its luscious peanut sauce — rich, nutty, sweet, and just a little spicy. A favorite afternoon snack across Indonesia, Batagor is perfect for enjoying while strolling through the lively festival atmosphere.",
         price: "700",
-        ingredients: "Chicken, tofu, tapioca flour, garlic, peanut sauce, chili",
+        ingredients: "Chicken, starch, and masako (flavoring)",
       },
       {
         name: "Dimsum mentai",
@@ -84,7 +83,7 @@ const stands = [
         img: "/imgfood/early/nasiuduk.jpeg",
         desc: "Nasi Uduk is a fragrant coconut rice dish originating from Jakarta, influenced by Malay and Betawi culinary traditions. Cooked with coconut milk, lemongrass, and spices, it offers a rich aroma and comforting taste. Historically, Nasi Uduk was served during festive occasions and family gatherings, symbolizing togetherness. Today, it is enjoyed daily across Indonesia, often paired with fried chicken, sambal, and side dishes like tempeh or boiled eggs. Its warm, creamy texture and cultural roots make it a timeless favorite.",
         price: "850",
-        ingredients: "Spiced fried chicken, chili egg (balado), fried tofu or tempeh (preferably tempeh), fried noodles, crackers",
+        ingredients: "spiced chicken, balado eggs, tofu/tempeh, fried noodles, crackers",
       },
       {
         name: "Dadar Gulung (Pandan Coconut Roll Pancake)",
@@ -103,28 +102,28 @@ const stands = [
         img: "/imgfood/asyief/mieayam.jpg",
         desc: "Mie Ayam, or 'chicken noodles,' is one of the most beloved street foods in Indonesia. The dish features springy yellow noodles topped with diced chicken simmered in a sweet-savory soy-based sauce, accompanied by a light chicken broth. Its origins trace back to Chinese immigrants who brought noodle-making traditions to Java in the early 20th century. Over time, Indonesians adapted the recipe by using local spices and kecap manis (sweet soy sauce), creating a unique comfort food that is now enjoyed across the country.",
         price: "650",
-        ingredients: "Chicken, noodles, mustard greens, spices, sweet soy sauce, (extra chili sauce), salty soy sauce, and chicken skin oil",
+        ingredients: "Chicken, noodles, mustard greens with spices, sweet soy sauce (bonus chili sauce), soy sauce, and chicken skin oil.",
       },
       {
         name: "Pempek (Palembang Fishcake)",
         img: "/imgfood/asyief/pempek.jpg",
         desc: "Pempek is a traditional delicacy from Palembang, South Sumatra, made from ground fish mixed with tapioca flour, then fried or boiled. It is always served with 'cuko,' a tangy and spicy dipping sauce made of palm sugar, tamarind, and chili. Pempek is believed to have been created by Chinese traders in the 16th century, who introduced fish cakes to local communities. Over generations, Palembang residents developed their own variations, making Pempek not just a dish but a cultural identity of the city. Today, it is enjoyed all over Indonesia, often bringing nostalgic memories of home.",
         price: "650",
-        ingredients: "Fish, tapioca flour, wheat flour, egg, sugar, salt, shallot, garlic. Cuko sauce: green chili, dried shrimp (rebon), palm sugar, tamarind",
+        ingredients: "Fish, wheat flour, starch, rice flour, eggs, shallots and garlic, cuko (brown sugar, tamarind, and shrimp paste).",
       },
       {
         name: "Sempol Ayam (Chicken Skewered Fritters)",
         img: "/imgfood/asyief/sempol.jpeg",
         desc: "Sempol Ayam is a popular street food snack from East Java, particularly Malang. It is made from a mixture of ground chicken, flour, eggs, and spices, shaped onto bamboo sticks, then boiled before being dipped in egg batter and fried. Its chewy texture and savory flavor make it a favorite among children and adults alike. The name 'sempol' is derived from the way the mixture is molded onto skewers, creating a unique snack that is easy to eat on the go. First gaining popularity in the early 2000s in Malang, Sempol Ayam has since spread across Indonesia, becoming a beloved quick snack often sold at night markets and school canteens.",
         price: "400",
-        ingredients: "Chicken, egg, tapioca flour, wheat flour, garlic, cooking oil",
+        ingredients: "Chicken, eggs, tapioca flour, wheat flour, garlic.",
       },
       {
         name: "Coffee (Hot/Ice)",
         img: "/imgfood/asyief/kopi.jpg",
         desc: "Indonesia is the fourth largest coffee producer in the world, and coffee has been an integral part of its history since the Dutch colonial period in the 17th century. The archipelago's diverse climates gave birth to famous varieties such as Sumatra, Java, and Sulawesi beans. This simple cup of Kopi, served hot or iced, represents more than just a drink—it reflects centuries of cultivation, trade, and social tradition. In Indonesian culture, drinking coffee is not only about taste but also about togetherness, as friends and families gather over a warm cup. Whether bold and bitter or smooth and sweetened, coffee remains a timeless companion in daily life.",
         price: "150",
-        ingredients: "Coffee beans, water, optional sugar or creamer, ice (for iced version).",
+        ingredients: "Coffee, water, ice (sugar/creamer optional).",
       },
     ]
   },
@@ -136,14 +135,14 @@ const stands = [
         img: "/imgfood/erni/nasigoreng.jpg",
         desc: "Nasi Goreng, or Indonesian fried rice, is a beloved dish that dates back centuries and reflects Indonesia's rich culinary heritage. This version features fragrant rice stir-fried with chicken, egg, and fresh vegetables, then seasoned with sweet soy sauce (kecap manis) for a perfect balance of savory and sweet flavors. Traditionally served during family gatherings or street food stalls, Nasi Goreng is more than just a meal—it's a symbol of comfort, community, and daily life in Indonesia.",
         price: "650",
-        ingredients: "Rice, chicken, egg, cooking oil, salt, garlic, onion, carrot, pepper, sweet soy sauce",
+        ingredients: "Rice, chicken, eggs, cooking oil, salt, garlic, onions, sorghum, pepper, sweet soy sauce",
       },
       {
         name: "Mie Goreng (Fried Noodles)",
         img: "/imgfood/erni/miegoreng.jpg",
         desc: "Mie Goreng, or Indonesian fried noodles, is a popular street food with roots influenced by Chinese culinary traditions. Tender noodles are stir-fried with juicy pieces of chicken, scrambled egg, and fresh vegetables, seasoned with select spices for a rich, homestyle flavor. This dish has been enjoyed for generations, often prepared as a quick meal for families or shared at festive occasions, embodying both convenience and cultural heritage.",
         price: "650",
-        ingredients: "Noodles, chicken, egg, cabbage, pepper, garlic, cooking oil",
+        ingredients: "Noodles, chicken, eggs, rice, pepper, garlic, cooking oil",
       },
       {
         name: "Bolu Pandan (Pandan Sponge Cake)",
@@ -157,7 +156,7 @@ const stands = [
         img: "/imgfood/erni/pastel.jpg",
         desc: "Pastel is a crispy, deep-fried pastry filled with a savory mix of vegetables, vermicelli (soun), and aromatic seasonings. This snack is widely enjoyed across Indonesia, often sold by street vendors during festivals or as a midday treat. The delicate balance between the crunchy outer layer and the flavorful filling makes Pastel a beloved comfort snack, reflecting Indonesia’s tradition of vibrant, diverse street foods.",
         price: "300",
-        ingredients: "Potato, carrot, vermicelli, egg, flour, margarine, garlic, onion, pepper, chicken consommé, cooking oil",
+        ingredients: "Potatoes, carrots, vermicelli, eggs, flour, margarine, garlic, onions, pepper, Royco (chicken consomme), cooking oil",
       },
       {
         name: "Kolak Labu (Pumpkin in Coconut Milk Dessert)",
@@ -183,7 +182,7 @@ const stands = [
         img: "/imgfood/baqir/sateayam.jpg",
         desc: "Sate Ayam, or chicken satay, is a classic Indonesian street food that has been enjoyed for generations. Tender pieces of chicken are skewered and grilled over charcoal, then served with a rich, sweet, and savory peanut sauce. Historically, satay originated as a humble street snack, but it has grown to become a national favorite, representing the vibrant flavors and communal spirit of Indonesian cuisine. Enjoyed at festivals, family gatherings, or casual dinners, each bite tells a story of tradition and flavor.",
         price: "3 Skewers - ￥350, 5 Skewers - ￥500",
-        ingredients: "Chicken, peanuts (allergen), shallots & garlic, soy-based soy sauce (potential allergen: soy), coriander, margarine (potential dairy allergen)",
+        ingredients: "Chicken, Peanut sauce (spices, peanuts, garlic, shallots, etc.)",
       }
     ]
   },
@@ -195,34 +194,34 @@ const stands = [
         img: "/imgfood/mursyida/nasikuning.jpg",
         desc: "Nasi Kuning, or Yellow Rice, is a festive Indonesian dish traditionally prepared with turmeric and coconut milk, giving it a fragrant aroma and golden color. Served with a complete array of side dishes such as fried chicken, boiled egg, fried noodles, crackers, and sambal terasi, it is often enjoyed during special occasions and celebrations. This dish reflects the rich cultural heritage of Indonesia and symbolizes prosperity and happiness in communal gatherings.",
         price: "650",
-        ingredients: "Rice, turmeric, coconut milk, shallots, garlic, candlenuts, lemongrass, bay leaves, kaffir lime leaves, fried chicken, fried noodles, egg, crackers, salad & cucumber, sambal terasi",
+        ingredients: "Rice, turmeric, coconut milk, shallots, garlic, candlenuts, lemongrass, bay leaves, lime leaves, fried chicken, fried noodles, eggs, crackers, salad & cucumber, shrimp paste chili sauce",
       },
       {
         name: "Donat Kampung",
         img: "/imgfood/mursyida/donatkampung.jpeg",
         desc: "Donat Kampung is a traditional Indonesian-style doughnut made with soft potato dough, fried to perfection, and topped with sweet layers like chocolate sprinkles, strawberry jam, or tiramisu. Loved by both children and adults, this snack has been a staple in local markets and home kitchens for decades, evoking memories of festive mornings and afternoon tea.",
         price: "350",
-        ingredients: "Potatoes, egg yolk, sugar, flour, instant yeast, margarine, toppings: chocolate sprinkles, strawberry jam, tiramisu",
+        ingredients: "Potatoes, egg yolks, granulated sugar, wheat flour, instant yeast, margarine, toppings: chocolate sprinkles, strawberry jam, and tiramisu.",
       },
       {
         name: "Es Pisang Ijo",
         img: "/imgfood/mursyida/espisangijo.jpg",
         desc: "Es Pisang Ijo is a refreshing Indonesian dessert featuring banana wrapped in green pandan-flavored dough, served with sweet coconut milk sauce, coco pandan syrup, and condensed milk. Originating from Makassar, this sweet treat is traditionally served during Ramadan as a light iftar dessert. Its vibrant colors and tropical flavors make it both visually appealing and deliciously satisfying.",
         price: "350",
-        ingredients: "Banana, rice flour, wheat flour, coconut milk, pandan paste & sugar, Marjan coco pandan syrup, condensed milk",
+        ingredients: "Bananas, rice flour, wheat flour, coconut milk, pandan paste and granulated sugar, Marjan coconut pandan syrup, and condensed milk.",
       },
       {
         name: "Aneka Jajanan Indonesia",
         img: "/imgfood/mursyida/jajan.jpg",
         desc: "A selection of traditional Indonesian snacks perfect for snacking, ranging from sweet to savory delights. This assortment includes treats like Beng-Beng chocolate bars, tempeh chips, coated peanuts, chocolate wafers, and banana chips. Each bite carries a piece of Indonesia’s rich culinary diversity, often enjoyed during gatherings, festivals, or casual afternoons.",
         price: "100",
-        ingredients: "Beng-Beng, tempeh chips, coated peanuts, chocolate wafers, banana chips",
+        ingredients: "Beng-beng, tempeh chips, peanuts, chocolate cream puffs, banana chips",
       },
       {
         name: "Ice tea",
         img: "/imgfood/mursyida/icetea.jpg",
         desc: "A classic iced tea made from brewed black tea, served chilled with ice cubes. This refreshing beverage is a staple in Indonesian households and street food culture, often enjoyed to cool down on hot days. Simple yet satisfying, iced tea pairs perfectly with a variety of Indonesian snacks and meals.",
-        price: "",
+        price: "150",
         ingredients: "Tea sariwangi (Indonesia brand tea), sugar, Mineral Water dan ice",
       },
     ]
@@ -262,7 +261,7 @@ const stands = [
       img: "/imgfood/afifah/nasibakar.jpeg",
       desc: "Nasi Bakar, or 'grilled rice,' is a fragrant Indonesian dish where rice is mixed with flavorful fillings, wrapped in banana leaves, and grilled over charcoal for a smoky aroma. This version combines chicken, potato, and tempeh, offering a balance of savory protein, hearty texture, and nutty taste. The banana leaf not only locks in the flavor but also gives a traditional presentation that reflects Indonesia’s rich culinary heritage.",
       price: "500",
-      ingredients: "Chicken, potato, tempeh",
+      ingredients: "shredded chicken",
     },
     ]
   }
